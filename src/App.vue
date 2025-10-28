@@ -1,11 +1,9 @@
-<script setup></script>
+<script setup>
+// App root now just renders the router. Individual pages/layouts live in `src/pages` and `src/layout`.
+// The router is registered in `src/main.js` so <router-view/> is available here.
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <router-view />
 </template>
-
 <style scoped></style>
